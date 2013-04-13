@@ -1,0 +1,13 @@
+Source: netspeed
+Section: user/other
+Priority: optional
+Maintainer: vlaomao <vlaomao@gmail.com>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+Homepage:
+
+Package: netspeed
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Configure plugin for controlpanel
+XSBC-Maemo-Display-Name: netspeed
