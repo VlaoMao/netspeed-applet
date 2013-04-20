@@ -1,4 +1,4 @@
-LANGUAGES = en ru
+LANGUAGES = en ru de es fi he it
 
 CATALOGNAME = netspeedapplet
 

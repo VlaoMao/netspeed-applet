@@ -50,6 +50,8 @@ install: build
 
 	# Add here commands to install the package into debian/netspeed.
 	$(MAKE) INSTALL_ROOT="$(CURDIR)"/debian/netspeed install
+	#make english default
+	cp "$(CURDIR)/translations/netspeedapplet_en.qm" "$(CURDIR)/debian/netspeed/usr/share/l10n/meegotouch/netspeedapplet.qm"
 
 
 # Build architecture-independent files here.

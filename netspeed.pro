@@ -5,4 +5,5 @@ SUBDIRS = \
 
 QMAKE_CLEAN += \
 	      build-stamp \
-	      configure-stamp
+	      configure-stamp \
+	      timed.log
